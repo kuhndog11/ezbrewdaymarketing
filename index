@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EZ Brew Day | Brew Smarter</title>
+  <meta name="description" content="Plan, track, and perfect your brew day with EZ Brew Day." />
+
+  <style>
+    body {
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#0a0f1d;
+      color:#ecf2ff;
+      text-align:center;
+    }
+
+    .container {
+      max-width:900px;
+      margin:auto;
+      padding:40px 20px;
+    }
+
+    h1 {
+      font-size:48px;
+      margin-bottom:10px;
+    }
+
+    p {
+      color:#a7b5d1;
+      font-size:18px;
+    }
+
+    .buttons {
+      margin-top:30px;
+      display:flex;
+      gap:15px;
+      justify-content:center;
+      flex-wrap:wrap;
+    }
+
+    .btn {
+      padding:14px 22px;
+      border-radius:30px;
+      font-weight:bold;
+      text-decoration:none;
+      display:inline-block;
+    }
+
+    .primary {
+      background:#1fd488;
+      color:#062618;
+    }
+
+    .secondary {
+      background:#f5a623;
+      color:#2c1900;
+    }
+
+    .outline {
+      border:1px solid #fff;
+      color:#fff;
+    }
+
+    .section {
+      margin-top:60px;
+    }
+
+    .pricing {
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+
+    .card {
+      background:#151f35;
+      padding:20px;
+      border-radius:20px;
+      width:260px;
+    }
+
+    .price {
+      font-size:36px;
+      margin:10px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>EZ Brew Day</h1>
+  <p>Brew smarter. Track better. Pour better.</p>
+
+  <div class="buttons">
+    <a href="https://app.ezbrewday.com" class="btn primary">
+      Launch App
+    </a>
+    <a href="#pricing" class="btn outline">
+      View Pricing
+    </a>
+  </div>
+
+  <div class="section">
+    <h2>What You Get</h2>
+    <p>
+      Recipe building, brew day tracking, water chemistry tools,
+      timers, and a full taproom display system — all in one place.
+    </p>
+  </div>
+
+  <div id="pricing" class="section">
+    <h2>Pricing</h2>
+
+    <div class="pricing">
+
+      <div class="card">
+        <h3>Free</h3>
+        <p class="price">$0</p>
+        <p>Basic brewing tools</p>
+        <a href="https://app.ezbrewday.com" class="btn outline">
+          Start Free
+        </a>
+      </div>
+
+      <div class="card">
+        <h3>Pro Monthly</h3>
+        <p class="price">$5/mo</p>
+        <p>Cloud save, advanced tools, taproom display</p>
+        <a href="https://buy.stripe.com/14A14ofrncC1gMPfb13wQ02" class="btn primary">
+          Go Pro
+        </a>
+      </div>
+
+      <div class="card">
+        <h3>Pro Yearly</h3>
+        <p class="price">$45/yr</p>
+        <p>Save money + full feature access</p>
+        <a href="https://buy.stripe.com/3cI8wQfrn31r8gj3sj3wQ03" class="btn secondary">
+          Go Yearly
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
